@@ -8,13 +8,13 @@ layout: default
     <div class="page-nav">
         {% if page.previous %}
         {% assign link = page.previous | prepend: '/worldview/' | prepend: site.baseurl %}
-        <a href="{{ link }}" class="left arrow">&#8592;</a>
+        <a href="{{ link }}" class="left arrow">[ 上一頁： {{ page.previous }} ]</a>
         {% endif %}
         {% if page.next %}
         {% assign link = page.next | prepend: '/worldview/' | prepend: site.baseurl %}
-        <a href="{{ link }}" class="right arrow">&#8594;</a>
+        <a href="{{ link }}" class="right arrow"> [ 下一頁： {{ page.next}} ]</a>
         {% endif %}
-        <a href="{{ '/worldview/目錄' | prepend:site.baseurl }}"><span>目錄</span></a>
+        <a href="{{ '/worldview/目錄' | prepend:site.baseurl }}">[ 目錄 ]</a>
     </div>
 
     <!-- <div class="post-line"></div> -->
