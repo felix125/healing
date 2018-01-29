@@ -13,9 +13,9 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Profecia
+title: Profecia Healing
 description: >- # this means to ignore newlines until "baseurl:"
-  Profecia Healing.
+  Healing.
 baseurl: "/healing" # the subpath of your site, e.g. /blog
 url: "https://felix125.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 
@@ -28,16 +28,22 @@ author:
 disqus:
   shortname: profecia-healing  #the Disqus shortname for the site
 
+defaults:
+  -
+    scope:
+      path: "/worldview/"
+    values:
+      layout: "worldview"
+
 # paginate: 5
 # paginate_path: "/blog/page:num/"
-
 
 # Build settings
 markdown: kramdown
 plugins:
   - jekyll-feed
   - jekyll-sitemap
-#  - jekyll-paginate
+  - jekyll-paginate
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.

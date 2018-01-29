@@ -1,8 +1,10 @@
 #+options: toc:nil
 #+BEGIN_EXPORT html
 ---
-title: 序
+title: 療癒，世界觀的擴展與改變
 revise: 2017-09-05
+permalink: /worldview/癌症不是絕症
+previous: 一個新的假設
 ---
 #+END_EXPORT
 
