@@ -28,13 +28,6 @@ author:
 disqus:
   shortname: profecia-healing  #the Disqus shortname for the site
 
-defaults:
-  -
-    scope:
-      path: "/worldview/"
-    values:
-      layout: "worldview"
-
 # paginate: 5
 # paginate_path: "/blog/page:num/"
 
