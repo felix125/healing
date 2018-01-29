@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: default
 ---
 # 文章列表
 
