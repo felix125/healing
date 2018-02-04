@@ -13,7 +13,7 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Healing, 生命的療癒
+title: Healing，生命與其療癒
 description: >- # this means to ignore newlines until "baseurl:"
   Healing.
 baseurl: "/life" # the subpath of your site, e.g. /blog
